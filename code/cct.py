@@ -3,7 +3,7 @@
 import pandas as pd
 import numpy as np
 import pymc as pm
-import aesara.tensor as at
+import pytensor.tensor as at
 import arviz as az
 
 def load_plant_knowledge_data(path="data/plant_knowledge.csv"):
